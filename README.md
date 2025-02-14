@@ -6,46 +6,46 @@ Este repositório contém implementações de diversos métodos numéricos organ
 
 ### 1. Método da Bisseção
 Localiza raízes de uma função dividindo sucessivamente um intervalo.  
-📂 [Código](./metodo_bissecao/)
+📂 [Código](./01_MetodoBissecao)
 
 ### 2. Método de Newton (Newton-Raphson)
 Aproxima raízes de funções utilizando derivadas.  
-📂 [Código](./metodo_newton/)
+📂 [Código](./02_MetodoNewtonRaphson/)
 
 ### 3. Método da Secante
 Semelhante ao método de Newton, mas sem necessidade da derivada.  
-📂 [Código](./metodo_secante/)
+📂 [Código](./03_MetodoSecante/)
 
 ### 4. Método de Jacobi
 Resolve sistemas lineares de forma iterativa.  
-📂 [Código](./metodo_jacobi/)
+📂 [Código](./04_MetodoJacobi/)
 
 ### 5. Método de Gauss-Seidel
 Uma versão otimizada do método de Jacobi, utilizando valores atualizados.  
-📂 [Código](./metodo_gauss_seidel/)
+📂 [Código](./05_MetodoGausSeidel/)
 
 ### 6. Método de Newton para Sistemas Não Lineares
 Expande o método de Newton para múltiplas equações simultâneas.  
-📂 [Código](./metodo_newton_sistemas/)
+📂 [Código](./06_NewtonSistemasNaoLineares/)
 
 ### 7. Interpolação Polinomial
 Ajusta um polinômio a um conjunto de pontos dados.  
-📂 [Código](./interpolacao_polinomial/)
+📂 [Código](./07_InterpolacaoPolinomial/)
 
 ### 8. Método dos Quadrados Mínimos
 Ajusta funções a dados experimentais minimizando o erro quadrático.  
-📂 [Código](./quadrados_minimos/)
+📂 [Código](./08_MetodoQuadradosMinimos/)
 
 ### 9. Aproximação por Função Exponencial
 Ajusta modelos exponenciais do tipo \( y = A e^{Bx} \) a dados.  
-📂 [Código](./aproximacao_exponencial/)
+📂 [Código](./09_AproximacaoPorFuncaoExponencial/)
 
 ## Como Usar
 Cada pasta contém um script Python implementando o método e, em alguns casos, exemplos de uso. Para rodar qualquer um dos métodos, basta acessar a subpasta correspondente e executar o código.
 
 ```bash
-cd metodo_bissecao
-python metodo_bissecao.py
+cd 01_MetodoBissecao
+python3 algoritmo.py
 ```
 
 ## Contribuições
